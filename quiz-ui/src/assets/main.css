@@ -1,0 +1,61 @@
+@import './base.css';
+@import "tailwindcss";
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  height: calc(100vh - 64px); 
+  color: black;
+}
+
+.left-panel {
+  background-color: white;
+  padding: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.start-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #45403C;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #bd9370;
+}
