@@ -4,7 +4,7 @@ This is a full-stack quiz application built with **Vue 3 (Vite)** on the fronten
 
 # 🎦 Demo
 
-[Demo](https://youtu.be/h35OliZo67k) / Alternative [Demo](https://github.com/vale-asmat/quiz-app/blob/main/demo%20minimized.mp4)
+[Demo](https://youtu.be/h35OliZo67k) / Alternative [Demo](quiz-app/blob/main/demo%20minimized.mp4)
 
 ---
 
